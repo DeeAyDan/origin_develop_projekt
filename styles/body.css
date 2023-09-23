@@ -1,0 +1,18 @@
+*{
+    border: solid 1px red;
+}
+
+body{
+    min-height: 100%;
+    margin: 0;
+}
+
+#pageBody{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 37px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+}
