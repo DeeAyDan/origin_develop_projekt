@@ -1,0 +1,26 @@
+#headerContainer{
+    min-height: 26px;
+    display:flex;
+}
+
+#headerLogo{
+    display: flex;
+    align-items: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#495057;
+}
+
+#headerLogoDot{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#DDBEA9;
+}
