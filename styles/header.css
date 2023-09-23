@@ -1,6 +1,7 @@
 #headerContainer{
     min-height: 26px;
     display:flex;
+    justify-content: space-between;
 }
 
 #headerLogo{
@@ -24,3 +25,41 @@
     text-align: left;
     color:#DDBEA9;
 }
+
+#headerDividingLine{
+    height: 25px;
+    width: 1px;
+    background: #E5E5E5;
+}
+
+#headerCenter, #headerRightBox{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerLink{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    color: #49505780;
+
+}
+
+.selectedHeaderLink{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: right;
+    color:#495057;
+    text-decoration: none;
+    border-bottom: 2px solid #DDBEA9;
+
+}
+
