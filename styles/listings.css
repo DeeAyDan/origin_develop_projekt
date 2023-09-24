@@ -1,0 +1,37 @@
+#listingsFlexBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+.listingImageHolder{
+    height: 250px;
+    overflow: hidden;
+}
+
+.listing {
+    width: 362px;
+}
+
+.listingImage{
+    max-width: 362px;
+    min-height: 100%;
+}
+
+.listingDate{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #495057;
+}
+
+.listingTitle{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #212529;
+}
