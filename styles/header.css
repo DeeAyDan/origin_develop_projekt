@@ -7,7 +7,6 @@
 #headerLogo{
     display: flex;
     align-items: center;
-    font-family: Poppins;
     font-size: 18px;
     font-weight: 700;
     line-height: 25px;
@@ -17,7 +16,6 @@
 }
 
 #headerLogoDot{
-    font-family: Poppins;
     font-size: 18px;
     font-weight: 700;
     line-height: 25px;
@@ -39,7 +37,6 @@
 }
 
 .headerLink{
-    font-family: Poppins;
     font-size: 12px;
     font-weight: 500;
     line-height: 25px;
@@ -51,7 +48,6 @@
 }
 
 .selectedHeaderLink{
-    font-family: Poppins;
     font-size: 12px;
     font-weight: 500;
     line-height: 25px;
