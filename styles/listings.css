@@ -1,13 +1,46 @@
+#listingTitleContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px 25px 0px;
+}
+
+#listingTitleText{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #212529;
+    width: 362px;
+}
+
+#listingCategories{
+    align-items: flex-end;
+    display: flex;
+    gap: 20px;
+}
+
+.selectedListing{
+    color: #495057;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
 #listingsFlexBox{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 5px;
 }
 
 .listingImageHolder{
     height: 250px;
     overflow: hidden;
+    border-radius: 4px;
 }
 
 .listing {
