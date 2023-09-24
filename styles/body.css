@@ -7,6 +7,10 @@ body{
     margin: 0;
 }
 
+html{
+    font-family: Poppins,sans-serif;
+}
+
 #pageBody{
     margin-left: 100px;
     margin-right: 100px;
