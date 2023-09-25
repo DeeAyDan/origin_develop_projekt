@@ -1,69 +1,68 @@
-#heroContainer{
-    width: 100%;
-    overflow: hidden;
-    border-radius: 5px;
-    max-height: 512px;
-    position: relative;
+#heroContainer {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+  max-height: 512px;
+  position: relative;
 }
 
 #heroContainer img {
-    width: 100%;
-    height: auto;
-    position: relative;
+  width: 100%;
+  height: auto;
+  position: relative;
 }
 
-#heroFilter{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color:#212529a3;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+#heroFilter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #212529a3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#heroAuthor{
-    color: #E5E5E5;
-    font-size: 12px;
-    font-weight: 300;
-    line-height: 20px;
-    letter-spacing: 0em;
-    text-align: center;
-    margin-top: auto;
+#heroAuthor {
+  color: #e5e5e5;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: auto;
 }
 
-
-#heroTitle{
-    color: #F8F9FA;
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0em;
-    text-align: center;
-    margin-bottom: auto;
-    max-width: 70%;
+#heroTitle {
+  color: #f8f9fa;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: auto;
+  max-width: 70%;
 }
 
-#slider{
-    display:flex;
-    align-items: center;
-    gap: 10px;
+#slider {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-#slider div{
-    width: 40px;
-    height: 1px;
-    background-color: #E5E5E5;
+#slider div {
+  width: 40px;
+  height: 1px;
+  background-color: #e5e5e5;
 }
 
-#slider p{
-    font-size: 12px;
-    font-weight: 300;
-    line-height: 20px;
-    letter-spacing: 0.2em;
-    text-align: right;
-    color: #E5E5E5;
+#slider p {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  text-align: right;
+  color: #e5e5e5;
 }

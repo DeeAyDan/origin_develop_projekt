@@ -1,61 +1,59 @@
-#headerContainer{
-    min-height: 26px;
-    display:flex;
-    justify-content: space-between;
+#headerContainer {
+  min-height: 26px;
+  display: flex;
+  justify-content: space-between;
 }
 
-#headerLogo{
-    display: flex;
-    align-items: center;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: left;
-    color:#495057;
+#headerLogo {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #495057;
 }
 
-#headerLogoDot{
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: left;
-    color:#DDBEA9;
+#headerLogoDot {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ddbea9;
 }
 
-#headerDividingLine{
-    height: 25px;
-    width: 1px;
-    background: #E5E5E5;
+#headerDividingLine {
+  height: 25px;
+  width: 1px;
+  background: #e5e5e5;
 }
 
-#headerCenter, #headerRightBox{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+#headerCenter,
+#headerRightBox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.headerLink{
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: left;
-    text-decoration: none;
-    color: #49505780;
-
+.headerLink {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-decoration: none;
+  color: #49505780;
 }
 
-.selectedHeaderLink{
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: right;
-    color:#495057;
-    text-decoration: none;
-    border-bottom: 2px solid #DDBEA9;
-
+.selectedHeaderLink {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #495057;
+  text-decoration: none;
+  border-bottom: 2px solid #ddbea9;
 }
-

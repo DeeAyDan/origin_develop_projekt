@@ -1,71 +1,71 @@
-#trendingTitle{
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #212529;
+#trendingTitle {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #212529;
 }
 
-#trendingGridBox{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    row-gap: 40px;
-    column-gap: 10px;
+#trendingGridBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 40px;
+  column-gap: 10px;
 }
 
-.trendingImage{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+.trendingImage {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
-.firstTrending{
-    width: 840px;
-    height: 480px;
-    overflow: hidden;
-    position: relative;
+.firstTrending {
+  width: 840px;
+  height: 480px;
+  overflow: hidden;
+  position: relative;
 }
 
-.trending{
-    height: 480px;
-    width: 400px;
-    overflow: hidden;
-    position: relative;
+.trending {
+  height: 480px;
+  width: 400px;
+  overflow: hidden;
+  position: relative;
 }
 
-.trendingFilter{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color:#21252930;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
+.trendingFilter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #21252930;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
 }
 
-.trendingDate{
-    margin-left: 10%;
-    width: 250px;
-    font-size: 12px;
-    font-weight: 300;
-    line-height: 20px;
-    letter-spacing: 0em;
-    color: #E5E5E5;
+.trendingDate {
+  margin-left: 10%;
+  width: 250px;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #e5e5e5;
 }
 
-.trendingText{
-    margin-left: 10%;
-    width: 250px;
-    margin-bottom: 10%;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #F8F9FA;
+.trendingText {
+  margin-left: 10%;
+  width: 250px;
+  margin-bottom: 10%;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f8f9fa;
 }
